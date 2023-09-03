@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8283f05c-1a48-41cc-80f6-6b48d1e37dba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-junkieDemo.iml" afterDir="false" />
+    <list default="true" id="8283f05c-1a48-41cc-80f6-6b48d1e37dba" name="Changes" comment="initial and configuration commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/seleniumhq_selenium_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_nop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/XML/BaseTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/XML/ParallelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screenshots/.gitkeep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -46,6 +52,19 @@
       <option name="presentableId" value="Default" />
       <updated>1693743068208</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial and configuration commit">
+      <option name="closed" value="true" />
+      <created>1693743531936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693743531936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial and configuration commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial and configuration commit" />
   </component>
 </project>
