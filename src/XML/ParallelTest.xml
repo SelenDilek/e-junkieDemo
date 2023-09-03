@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuit" parallel="tests" thread-count="3">
+    <test name="chromeDriver">
+        <parameter name="webDriver" value="chrome"></parameter>
+
+        <classes>
+            <class name="Main"> </class>
+        </classes>
+    </test>
+
+    <test name="firefoxDriver">
+        <parameter name="webDriver" value="firefox"></parameter>
+
+        <classes>
+            <class name="Main"> </class>
+        </classes>
+    </test>
+</suite>
