@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8283f05c-1a48-41cc-80f6-6b48d1e37dba" name="Changes" comment="initial and configuration commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/seleniumhq_selenium_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_nop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XML/BaseTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/XML/ParallelTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screenshots/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +32,59 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/JavaLessons/Bootcamp/TechnoStudyTr",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaLessons\Bootcamp\e-junkieDemo\src\XML" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/JavaLessons/Bootcamp/e-junkieDemo/src/XML/BaseTest.xml">
+    <configuration name="C:/JavaLessons/Bootcamp/e-junkieDemo/src/XML/BaseTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e-junkieDemo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/XML/BaseTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e-junkieDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.US4ValidPayment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e-junkieDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="US4ValidPayment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/JavaLessons/Bootcamp/e-junkieDemo/src/XML/BaseTest.xml" />
+        <item itemvalue="TestNG.Main" />
+        <item itemvalue="TestNG.Main.US4ValidPayment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693743531936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial and configuration commit">
+      <option name="closed" value="true" />
+      <created>1693743959908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693743959908</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial and configuration commit">
+      <option name="closed" value="true" />
+      <created>1693743974177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693743974177</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
