@@ -168,12 +168,11 @@ public class Main {
         js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
 
         Thread.sleep(5000);
-
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
         String timeStamp = dateFormat.format(new Date());
         String fileName = "eJunkie_" + timeStamp + ".jpg";
-        FileUtils.copyFile(screenshotFile, new File("C:\\Users\\user\\Desktop\\Software Engineering\\SDET\\Bootcamp\\Main Program\\Test Tools\\Selenium\\ScreenShots\\"+fileName));
+        FileUtils.copyFile(screenshotFile, new File("C:\\JavaLessons\\Bootcamp\\e-junkieDemo\\src\\screenshots\\"+fileName));
         Thread.sleep(5000);
     }
 
