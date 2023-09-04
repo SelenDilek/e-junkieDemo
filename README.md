@@ -12,8 +12,6 @@ Domain: https://techno.study/tr
 - 🔥 Rustam Roz - Tester
 - 🔥 Umut Can Güzel - Tester
 
-- asdad
-
 Getting Started
 ---------------
 
