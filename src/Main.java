@@ -63,7 +63,35 @@ public class Main {
 
     // @assigned=Umut Can Güzel
     @Test
-    void US2NullPayment() {
+    void US2NullPayment() throws InterruptedException {
+       /* driver.navigate().to("https://www.e-junkie.com/wiki/demo/paypal");
+        Assert.assertTrue(driver.getCurrentUrl().equals("https://www.e-junkie.com/wiki/demo/paypal"), "Web site is wrong");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Add to Cart']"))).click();
+
+
+        driver.switchTo().frame(0);
+        WebElement yourCart = driver.findElement(By.xpath("//button[@class='Payment-Button CC']"));
+
+        Assert.assertTrue(yourCart.isDisplayed());
+
+        WebElement proceedToPay = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='Proceed To Pay']")));
+        Assert.assertTrue(proceedToPay.isDisplayed());*/
+        driver.navigate().to("https://www.e-junkie.com/wiki/demo/paypal");
+
+        Assert.assertTrue(driver.getCurrentUrl().equals("https://www.e-junkie.com/wiki/demo/paypal"), "Web site is wrong");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Add to Cart']"))).click();
+
+        driver.switchTo().frame(0);
+
+        WebElement yourCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='Payment-Button CC']")));
+        Thread.sleep(3000);
+        yourCart.click();
+
+        Thread.sleep(3000);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='Pay-Button']"))).click();
+        Thread.sleep(3000);
+        //Assert.assertTrue();
+
 
     }
 
@@ -83,10 +111,10 @@ public class Main {
 
         driver.switchTo().frame(0);
 
-        WebElement yourCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//h3[@class='Title'])[1]")));
+        WebElement yourCart = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[@class='Title'])[1]")));
         Assert.assertTrue(yourCart.isDisplayed());
 
-        WebElement proceedToPay = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='Proceed To Pay']")));
+        WebElement proceedToPay = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='Pay-Button']")));
         Assert.assertTrue(proceedToPay.isDisplayed());
 
         WebElement totalPrice = driver.findElement(By.xpath("//span[text()='0.01 USD']"));
@@ -99,7 +127,7 @@ public class Main {
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='Pay-Button']"))).click();
 
-        WebElement message = driver.findElement(By.xpath("//*[@id=\"SnackBar\"]/span"));
+        WebElement message = driver.findElement(By.xpath("//*[@id='SnackBar']/span"));
 
         Assert.assertTrue(message.isEnabled(),"Message is not appeared");
 
