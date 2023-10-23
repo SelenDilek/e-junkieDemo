@@ -1,16 +1,14 @@
-# TechnoStudyTr
+# E-JUNKIE.com
 
-Techno Study Batch 4 Group 5 Friday Project. We use JAVA and Test Tools on this project.
-
-Domain: https://techno.study/tr
+Domain: https://www.e-junkie.com/wiki/demo/paypal
 
 ## Team
-- 🔥 Emrullah Tanıma - QA Lead
-- 🔥 Samet Çamoğlu - Tester
-- 🔥 Ümit Boyraz - Tester
-- 🔥 Selen Dilek - Tester
-- 🔥 Rustam Roz - Tester
-- 🔥 Umut Can Güzel - Tester
+-  Emrullah Tanıma - QA Lead
+-  Samet Çamoğlu - Tester
+-  Ümit Boyraz - Tester
+-  Selen Dilek - Tester
+-  Rustam Roz - Tester
+-  Umut Can Güzel - Tester
 
 Getting Started
 ---------------
